@@ -1,4 +1,6 @@
-# Kwork Parser (RU)
+[ENG Version](#Kwork-Parser-(ENG))
+[RUS Версия](#Kwork-Parser-(RU))
+## Kwork Parser (RU)
 Это не большой парсер kwork.ru. Он собирает с почты рассылочные письма собирает их в нужные ссылки. Отправляет на сервер, все ссылки скрапятся (Название проекта, описание, ценник мин, ценник макс). После пихается в ИИ с последующим анализом (пре промптинг) и отправляется в тг бота.
 # Перед запуском обязательно настроить рассылку kwork на почту! (На ваш выбор по таймингам 1час,3часа, 6 часов и раз в день.)
 # Запуск сервера uvicorn 
@@ -21,7 +23,7 @@
 - bash.sh с автозапуском всех процессов❌
 - Добавить выбор нейросети (добавить api и поддержку платных) ❌
 -------------------------------------------------------------------------
-# Kwork Parser (ENG)
+## Kwork Parser (ENG)
 This is a small parser for kwork.ru. It collects newsletter emails from your inbox and extracts the required links. These links are sent to a server where all the links are scraped to retrieve project data (Project Title, Description, Minimum Price, Maximum Price). After that, the data is sent to an AI for further analysis (pre-prompting) and then forwarded to a Telegram bot.
 
 # Before launching, make sure to set up the Kwork mailing list on your email! (Choose your timing: 1 hour, 3 hours, 6 hours, or once a day.)
